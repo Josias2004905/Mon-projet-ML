@@ -131,7 +131,7 @@ def load_results():
     # Maintenant on charge normalement
     with open('models/saved_models/all_results.pkl', 'rb') as f:
         return pickle.load(f)
-
+results = load_results()
 # =============================================
 # NOMS LISIBLES DES FEATURES
 # =============================================
